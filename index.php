@@ -15,13 +15,12 @@
 
 <?php
 
-print('<hr>結果表示<br>');
+print('<hr>結果<br>');
 
 if($_SERVER["REQUEST_METHOD"] != "POST"){
-	    print('GETによる要求です');
-}else{
-	    print('POSTによる要求です');
+	print('GETによる要求です');
 }
+print('POSTによる要求です');
 
 ?>
 </body>

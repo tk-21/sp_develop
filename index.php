@@ -2,7 +2,7 @@
 <head><title>PHP TEST</title></head>
 <body>
 
-<p>POSTとGETのリクエストの識別</p>
+<h1>POSTとGETのリクエストの識別</h1>
 
 <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
 <input type="text" name="personal_name"><br><br>
